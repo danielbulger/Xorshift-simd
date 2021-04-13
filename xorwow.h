@@ -6,7 +6,6 @@
 struct xorwow_state
 {
 	__m128i state[5];
-
 	__m128i counter;
 
 } __attribute__((aligned(16)));
